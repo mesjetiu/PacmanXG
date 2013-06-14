@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Version=1.0
+Name=PacmanXG
+Name[ru]=PacmanXG
+GenericName=GUI for pacman and yaourt
+GenericName[ru]=Графическая оболочка для Pacman и Yaourt
+Exec=ssx pacmanxg
+Icon=/usr/share/pixmaps/pacmanxg.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Application;Utility;

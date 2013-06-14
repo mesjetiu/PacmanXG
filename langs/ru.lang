@@ -1,0 +1,534 @@
+# This is translate file maded in langsup3 by Almin-Soft
+#
+#
+# You may translate this file manually in any text editor
+# To do this translate all the lines that begin
+# with the word "caption".
+#
+# Lines that begin with the "#" character can be used as comments
+#
+# IMPORTANT : Use a "#10" to indicate line breaks
+#
+
+#============Main Page====================
+mainfo trichbutton37: trichbutton
+  caption=Управление пакетами
+
+mainfo b_mylist: trichbutton
+  caption=Мой список пакетов
+
+mainfo trichbutton39: trichbutton
+  caption=Задания
+
+mainfo b_news: trichbutton
+  caption=Новости
+
+mainfo trichbutton5: trichbutton
+  caption=Сообщения
+  hint=Сообщения pacman
+
+mainfo trichbutton38: trichbutton
+  caption=Настройки
+  hint=Интерфейс
+
+mainfo b_errors: trichbutton
+  caption=Найдено несколько ошибок и замечаний. Щелкните здесь, чтобы их увидеть
+
+mainfo l_newver: tlabel
+  caption=Доступна новая версия!
+
+#=======Package Management Page===========
+
+mainfo twf: twidgetgrid
+  caption=
+  caption=
+  caption=
+  caption=Пакет
+  caption=Пакет
+  caption=
+  caption=Установлена
+  caption=Доступная версия
+  caption=Группа(ы)
+  caption=Репозиторий
+  caption=Категория
+  caption=Описание пакета
+  caption=Размер (MB)
+
+mainfo b_install_file2: trichbutton
+  caption=Файл
+
+mainfo l_find_package_for_file: tlabel
+  caption=Найти пакет, которому принадлежит файл
+
+mainfo b_findpackage_with_pacman: trichbutton
+  caption=Искать с помощью pacman
+
+mainfo b_findpackage_with_pkgfile: trichbutton
+  caption=Искать с помощью pkgfile
+
+#===Panel with info=======================
+
+mainfo ttabpage16: ttabpage
+  caption=Кратко
+
+mainfo l_pkgname_capt: tlabel
+  caption=Пакет : 
+
+mainfo tlabel9: tlabel
+  caption=Репозиторий : 
+
+mainfo l_pkginfo_capt: tlabel
+  caption=Описание : 
+
+mainfo l_thumb: tlabel
+  caption=Нет скриншота
+
+mainfo ttabpage17: ttabpage
+  caption=Полная
+
+mainfo ttabpage8: ttabpage
+  caption=Список файлов
+
+mainfo ttabpage14: ttabpage
+  caption=Проверка пакета
+
+mainfo ttabpage4: ttabpage
+  caption=Иерархия
+
+#========Filter panel=====================
+
+mainfo ber_aur: tbooleanedit
+  frame.caption=AUR
+
+mainfo ber_exact: trichbutton
+  frame.caption=Точное совпадение по названию
+
+mainfo ber_all: tbooleaneditradio
+  frame.caption=Все пакеты
+
+mainfo dd_ag1: tbooleaneditradio
+  frame.caption=по группе
+
+mainfo ber_ins: tbooleaneditradio
+  frame.caption=Установленные
+
+mainfo dd_ar1: tbooleaneditradio
+  frame.caption=по репозиторию
+
+mainfo dd_cat_all1: tbooleaneditradio
+  frame.caption=по категории
+
+mainfo ber_expls: tbooleaneditradio
+  frame.caption=Установленые явно
+
+mainfo ber_orfans: tbooleaneditradio
+  frame.caption=Сироты
+
+mainfo be_query_all: tbooleaneditradio
+  frame.caption=Очередь
+
+mainfo ber_haveupdate: tbooleaneditradio
+  frame.caption=Есть обновления
+
+mainfo be_query_ins: tbooleaneditradio
+  frame.caption=для установки
+
+mainfo be_query_del: tbooleaneditradio
+  frame.caption=для удаления
+
+
+mainfo ber_deps: tbooleaneditradio
+  frame.caption=как зависимости
+
+#=========================================
+
+mainfo b_updatesystem: trichbutton
+  caption=Обновить систему
+
+mainfo trichbutton19: trichbutton
+  caption=Обновить пакеты из AUR
+
+mainfo b_sinh: trichbutton
+  caption=Синхронизация зеркал
+
+mainfo trichbutton22: trichbutton
+  caption=Заново скачать устанновленные пакеты
+
+mainfo b_save_packagelist: trichbutton
+  caption=Сохранить список пакетов в файл
+
+mainfo b_cleancache: trichbutton
+  caption=Очистить кэш
+
+mainfo b_restore_from_file: trichbutton
+  caption=Восстановить систему по списку пакетов
+
+mainfo b_findfastmirrors: trichbutton
+  caption=3 наиболее быстрых зеркала
+
+mainfo trichbutton28: trichbutton
+  caption=Переустановить все пакеты
+
+mainfo b_cache_management: trichbutton
+  caption=Управление кэшем
+  hint=Управление кэшем
+
+mainfo b_cleancachef: trichbutton
+  caption=Полная очистка кэша
+
+mainfo b_remove_orfans: trichbutton
+  caption=Удаление "сирот"
+
+mainfo d_term: trichbutton
+  caption=X терминал
+
+mainfo d_finav: trichbutton
+  caption=Файловый менеджер
+
+mainfo d_texteditor: trichbutton
+  caption=Текстовый редактор
+
+mainfo b_expl: trichbutton
+  caption=Пометить пакет как "Установлен явно"
+
+mainfo b_dep: trichbutton
+  caption=Пометить пакет как "Установлен как зависимость"
+
+mainfo b_dizz: trichbutton
+  caption=Файлы, не принадлежащие установленным пакетам
+
+mainfo l_find_package_for_file: tlabel
+  caption=Найти пакет, которому принадлежит файл
+
+
+mainfo b_install_file: trichbutton
+  caption=Установить файл
+
+mainfo b_dowgrade_pkg: trichbutton
+  caption=Откат пакета
+  hint=Откат пакета
+
+#===========Logs=============================
+
+mainfo wg_log_dates: twidgetgrid
+  frame.caption=По дате :
+
+mainfo b_clearlog: trichbutton
+  caption=Удалить все сообщения
+
+mainfo trichbutton10: trichbutton
+  caption=Сообщения сессии
+
+mainfo trichbutton4: trichbutton
+  caption=Ошибки
+
+mainfo b_check_errors: trichbutton
+  caption=Перепроверить
+
+
+#==========Settings==============================
+mainfo tspacer23: tspacer
+  frame.caption=Интерфейс
+
+mainfo dd_fonts: tdropdownlistedit
+  frame.caption=Шрифт
+
+mainfo ie_heightfont: tintegeredit
+  frame.caption=Высота
+
+mainfo dd_langs: tdropdownlistedit
+  frame.caption=Язык интерфейса
+
+mainfo b_set_font: trichstockglyphbutton
+  caption=Установить
+
+mainfo ber_left_menu: tbooleanedit
+  frame.caption=Показывать меню слева
+
+mainfo dd_themes: tdropdownlistedit
+  frame.caption=Цветовая схема
+
+
+
+mainfo tspacer30: tspacer
+  frame.caption=Управление пакетами
+
+mainfo b_sinhmirrors: tbooleanedit
+  frame.caption=Синхронизировать зеркала при обновлении списка пакетов
+
+mainfo ber_external: tbooleanedit
+  frame.caption=Выполнять во внешнем терминале
+
+mainfo be_noscreenshot: tbooleanedit
+  frame.caption=Показывать скриншоты
+
+mainfo be_oldtablestyle: tbooleanedit
+  frame.caption=Старый вид таблицы
+
+mainfo ber_pos: tbooleanedit
+  frame.caption=Запоминать позицию и размер окна
+
+mainfo ber_reset_options: tbooleanedit
+  frame.caption=Сбросить опции установки и удаления после завершения процесса
+
+
+
+mainfo tspacer19: tspacer
+  frame.caption=Панель фильтров
+
+mainfo b_filterpanelpos1: tbooleaneditradio
+  frame.caption=Справа
+
+mainfo b_filterpanelpos: tbooleaneditradio
+  frame.caption=Слева
+
+
+mainfo tspacer39: tspacer
+  frame.caption=Уведомления
+
+mainfo be_notifyme: tbooleaneditradio
+  frame.caption=Уведомлять меня о завершении
+
+
+mainfo trichbutton44: trichbutton
+  caption=Утилиты
+
+
+#mainfo trichbutton13: trichbutton
+#  caption=Перезагрузить
+
+mainfo trichbutton16: trichbutton
+  caption=Сохранить
+
+
+
+#==========About==============================
+mainfo B_ABOUT1: trichbutton
+  hint=О программе
+
+mainfo trichbutton3: trichbutton
+  caption=Лицензия
+
+mainfo trichbutton8: trichbutton
+  caption=Заметки
+
+mainfo trichbutton9: trichbutton
+  caption=Благодарности
+
+mainfo trichbutton21: trichbutton
+  caption=Помочь проекту
+
+mainfo trichbutton47: trichbutton
+  caption=Горячие клавиши
+
+
+mainfo l_inf: tlabel
+  caption=PacmanXG - графическая оболочка для pacman, #10yaourt и других утилит,написанная Александром #10Миноши (Almin-Soft Group) для сообщества Arch Linux.#10#10Программа не требует ни QT, ни GTK#10Данная программа является свободным программным обеспечением. #10Вы вправе распространять ее и/или модифицировать в соответствии #10с условиями версии 2 либо по вашему выбору с условиями более поздней #10версии Стандартной Общественной Лицензии GNU, опубликованной #10Free Software Foundation. #10#10Мы распространяем данную программу в надежде на то, что она #10будет вам полезной, однако НЕ ПРЕДОСТАВЛЯЕМ НА НЕЕ НИКАКИХ #10ГАРАНТИЙ, в том числе ГАРАНТИИ ТОВАРНОГО СОСТОЯНИЯ ПРИ ПРОДАЖЕ #10и ПРИГОДНОСТИ ДЛЯ ИСПОЛЬЗОВАНИЯ В КОНКРЕТНЫХ ЦЕЛЯХ. #10Для получения более подробной информации ознакомьтесь со #10Стандартной Общественной Лицензией GNU.#10#10Вместе с данной программой вы должны были получить экземпляр #10Стандартной Общественной Лицензии GNU. Если вы его не получили, #10сообщите об этом в Free Software Foundation,#10 Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.#10
+
+
+mainfo l_tip: tlabel
+  caption=Для корректной работы с yaourt добавьте USECOLOR=0 в файле /etc/yaourtrc
+
+mainfo l_tip3: tlabel
+  caption=Используйте ключ "--FONTALIAS=stf_default,<fontname>" для глобального изменения шрифта.
+
+mainfo tlabel12: tlabel
+  caption=Установите пкакет lib32-libxft, если есть проблемы со сглаживанием шрифтов.
+
+mainfo tlabel6: tlabel
+  caption=Отключите параметр VerbosePkgLists в файле pacman.conf (для pacman версий 4.0.0 и выше)
+
+mainfo tlabel17: tlabel
+  caption=Возможно для x64 систем потребуется установить пакет xorg-server-utils
+
+mainfo tlabel8: tlabel
+  caption=Запустите PacmanXG с параметром "--exec" если необходимо выполнить определенную операцию:#10             pacmanxg --exec "pacman -S opera"#10
+
+
+
+//hot keys
+
+#mainfo tlabel3: tlabel
+#  caption=Глобальные #10#10CTRL + U#10#10CTRL + S#10#10#10Управление пакетами #10#10CTRL + I#10#10CTRL + R#10#10CTRL #+ E#10#10CTRL + F#10#10CTRL + L#10#10
+
+
+
+mainfo l_thanks: tlabel
+  caption=Выражаем благодарность #10#10проекту MSEide + MSEGUI#10#10проекту freepascal#10#10проектам synaptic, app-set, KPackageKit/Apper(идеи по интерфейсу и функционалу)#10#10проекту pkgbrowser (скриншоты)#10#10проекту Nosonja и Marko Gobin лично (несколько идей, тестирование)#10#10народу  с форума archlinux.org.ru/forum (идеи, отчеты об ошибках):#10#10 - Nebulosa - первоначальная поддержка AUR PKGBUILD#10 - alexdsp #10 - mehanoid#10 - 32reg - главный бетатестер на x64 системе :)#10 - Stasisman#10 - valera_cr  #10#10народу с форума bbs.archlinux.org :#10 - karol
+
+
+
+mainfo tlabel1: tlabel
+  frame.caption=Тестирование 
+  caption=Нашли ошибку или есть идея по развитию программы? #10Пришлите нам на е-майл#10#10#10#10или опубликуйте на форумах
+
+mainfo tlabel13: tlabel
+  frame.caption=Есть желание помочь финансово ? 
+
+mainfo tlabel4: tlabel
+  frame.caption=Вы переводчик ?
+  caption=Откройте любой файл из /opt/pacmanxg4/langs, переведите его и на Ваш язык и пришлите нам на almin-soft@yandex.ru
+
+mainfo tlabel2: tlabel
+  frame.caption=Вы художник ?
+  caption=Это правда, интерфейс программы крайне аскетичный#10#10Нарисуйте новый и пришлите нам! 
+
+
+
+#============PM============================
+
+mainfo pm: tpopupmenu
+  caption=<separator>
+  caption=Пометить пакеты для установки
+  caption=Пометить пакеты для удаления
+  caption=Отменить операцию с пакетом
+  caption=Очистить очередь
+  caption=<separator>
+  caption=Выполнить
+  caption=<separator>
+  caption=Обновить систему
+  caption=Синхронизировать зеркала
+  caption=<separator>
+  caption=Откат пакета
+  caption=Пометить пакет как "установлен явно"
+  caption=Пометить пакет как "установлен как зависимость"
+  caption=Добавить пакет в список исключения
+  caption=Repacman
+#  caption=<separator>
+#  caption=Открыть мой список пакетов
+#  caption=Добавить в мой список пакетов
+
+mainfo pm_filelist: tpopupmenu
+  caption=<separator>
+  caption=Открыть в тектовом редакторе
+  caption=Открыть каталог
+
+
+
+#============Others============================
+
+mainfo b_menu: trichbutton
+  caption=МЕНЮ
+
+mainfo bmenu1: trichbutton
+  caption=Начало
+
+#================Operation========================
+
+mainfo trichbutton59: trichbutton
+  caption=Отмена/Закрыть
+
+
+mainfo trichbutton52: trichbutton
+  caption=Опции удаления
+
+
+mainfo s_del_opt: tspacer
+  frame.caption=Опции удаления
+
+mainfo be_nosave: tbooleanedit
+  frame.caption=--nosave  не охранять резервные версии файлов настроек
+
+mainfo be_cascade: tbooleanedit
+  frame.caption=--cascade  удалить все целевые пакеты, а также все пакеты, которые #10                      зависят от одного или нескольких пакетов цели.  
+
+mainfo be_recursive: tbooleanedit
+  frame.caption=--recursive  удаление пакетов с учетом всех их зависимостей.
+
+mainfo be_checkhome: tbooleanedit
+  frame.caption=Проверять домашний каталог на наличие файлов настроек#10                       удаляемых пакетов
+
+mainfo be_unneeded: tbooleanedit
+  frame.caption=--unneeded удаляет пакеты, которые не требуются другим пакетам.
+
+
+mainfo b_continue_del: trichbutton
+  caption=Продолжить
+
+
+mainfo trichbutton53: trichbutton
+  caption=Опции установки
+
+mainfo s_ins_opt: tspacer
+  frame.caption=Опции установки
+
+mainfo be_downloadonly: tbooleanedit
+  frame.caption=--downloadonly  только скачать пакет
+
+mainfo be_asexpl: tbooleanedit
+  frame.caption=--asexplicit установить пакеты явно
+
+mainfo be_asexpl: tbooleanedit
+  frame.caption=--asexplicit установить пакеты явно
+
+mainfo be_needed: tbooleanedit
+  frame.caption=--needed   Не устанавливать пакеты, которые уже находятся в актуальном состоянии.
+
+mainfo be_force: tbooleanedit
+  frame.caption=--force  переписать все конфликтующие файлы. 
+
+
+
+mainfo s_trans_ask: tspacer
+  frame.caption=Опции транзакции
+
+mainfo be_scriptlet: tbooleanedit
+  frame.caption=--noscriptlet  Если есть сценарий установки, не выполнять его.
+
+mainfo be_dbonly: tbooleanedit
+  frame.caption=--dbonly  Добавляет / удаляет запись только в базе данных,#10                       оставляет все файлы на месте.
+
+mainfo be_nodeps: tbooleanedit
+  frame.caption=--nodeps Пропуск проверки зависимостей версии.  
+
+mainfo be_nodeps2: tbooleanedit
+  frame.caption=--nodeps --nodeps, -Пропустить все проверки
+
+
+mainfo trichbutton61: trichbutton
+  caption=Детально
+
+#===============================================
+[MESSAGES]
+File_not_found=Файл не найден
+Clear_log_file=Очистить файл сообщений
+check=проверка файла
+Ok=Ок
+Error=ошибка
+verbosepkglists_switch_off=параметр verbosepkglists
+sinh_mirrors=Сихронизация зеркал
+orfans=Пакеты-сироты
+load_packagelist=Загрузка списка пакетов
+Without_group=Без группы
+all_packages=Все пакеты
+please_wait=пожалуйста, подождите
+search=Поиск
+search_in_AUR=Поиск в AUR
+Installed_version=Установленная версия
+Available_version=Доступная версия
+Group=Группа
+Repository=Репозиторий
+Screenshots_are_switch_off_in options=Загрузка#10скриншотов#10выключена
+Loading_screenshot=Загрузка скиншота
+Seaching_screenshot=Поиск скиншота
+No_screenshot=Нет скриншота
+Can`t_save_file=Не могу сохранить файл
+Can`t_delete_file=Не могу удалить файл
+files=файл(ов)
+cache=Кэш
+error_news=Ошибка при получении ленты новостей
+Please_select_package=Пожалуйста, выберите пакет или поставьте их очередь.
+install=Установка пакетов
+remove=Удаление пакетов
+Done=Процесс завершен
+long_time=Этот процесс может занять несколько минут!#10Продолжить?
+log_file_is_more_then_1Mbt=Размер файла сообщениий более 1 мбт!#10Его загрузка может потребовать длительное время
+Loading=Идет загрузка
+All_log=Все сообщения
+Saved=Сохранено
+Have_you_rights_to_do_it=Проверьте права доступа
+edit_PKGBUILD1=Вы хотите отредактировать PKGBUILD.#10#10Сейчас программа попытается открыть в тектовом редакторе(вкладка "Задания") файл
+edit_PKGBUILD2=После редактирования нажмите кнопку "Нет", чтобы продолжить установку.
+TERMINATEPROCESS=Прервать текущий процесс?
+#===============================================
+
