@@ -1,0 +1,542 @@
+# This is translate file made in langsup3 by Almin-Soft
+#
+#
+# You may translate this file manually in any text editor
+# To do this translate all the lines that begin
+# with the word "caption".
+#
+# Lines that begin with the "#" character will be used as comments
+#
+# IMPORTANT: Use a "#10" to indicate line breaks
+#
+# Translator - Xorg
+
+#============Main Page====================
+mainfo trichbutton37: trichbutton
+  caption=Gestion des paquets
+
+mainfo b_mylist: trichbutton
+  caption=Ma liste de paquets
+
+mainfo trichbutton39: trichbutton
+  caption=Tâches
+
+mainfo b_news: trichbutton
+  caption=Nouvelles
+
+mainfo trichbutton5: trichbutton
+  caption=Journaux
+  hint=Pacman Logs
+
+mainfo trichbutton38: trichbutton
+  caption=Préférences
+  hint=Interface
+
+mainfo b_errors: trichbutton
+  caption=Il y a des erreurs et des avertissements ! Cliquer ici pour les voir
+
+mainfo l_newver: tlabel
+  caption=Une nouvelle version de PacmanXG est disponible !
+  
+
+#=======Package Management Page===========
+
+mainfo twf: twidgetgrid
+  caption=
+  caption=
+  caption=
+  caption=Paquet
+  caption=Paquet
+  caption=
+  caption=Version installée
+  caption=Version disponible
+  caption=Groupe(s)/Votes(AUR)
+  caption=Dépôt
+  caption=Catégorie
+  caption=Description
+  caption=Taille (Mo)
+
+mainfo b_install_file2: trichbutton
+  caption=Fichier
+
+mainfo l_find_package_for_file: tlabel
+  caption=Recherche le paquet contenant le fichier
+
+
+mainfo b_findpackage_with_pacman: trichbutton
+  caption=Recherche avec Pacman
+
+mainfo b_findpackage_with_pkgfile: trichbutton
+  caption=Recherche avec pkgfile
+
+#===Panel with info=======================
+
+mainfo ttabpage16: ttabpage
+  caption=Peu d'informations
+
+mainfo l_pkgname_capt: tlabel
+  caption=Paquet: 
+
+mainfo tlabel9: tlabel
+  caption=Dépôt: 
+
+mainfo l_pkginfo_capt: tlabel
+  caption=Description: 
+
+mainfo l_thumb: tlabel
+  caption=Pas de capture d'écran#10disponible
+
+mainfo ttabpage17: ttabpage
+  caption=Beaucoup d'informations
+
+mainfo ttabpage8: ttabpage
+  caption=Liste des fichiers du paquet
+
+mainfo ttabpage14: ttabpage
+  caption=Vérification du paquet
+
+mainfo ttabpage4: ttabpage
+  caption=Arbre du paquet
+
+
+#============Filter Panel=================
+
+
+mainfo ber_aur: tbooleanedit
+  frame.caption=Inclure AUR
+
+mainfo b_del_all: trichbutton
+  caption=Tous
+
+mainfo b_ins_all: trichbutton
+  caption=Tous
+
+
+mainfo ber_exact: trichbutton
+  frame.caption=Recherche exacte par nom
+
+mainfo ber_all: tbooleaneditradio
+  frame.caption=Tous les paquets
+
+mainfo dd_ag1: tbooleaneditradio
+  frame.caption=Par groupe
+
+mainfo ber_ins: tbooleaneditradio
+  frame.caption=Installés
+
+mainfo dd_ar1: tbooleaneditradio
+  frame.caption=Par dépôt
+
+mainfo dd_cat_all1: tbooleaneditradio
+  frame.caption=Par catégorie
+
+mainfo ber_expls: tbooleaneditradio
+  frame.caption=Installés explicitement
+
+mainfo ber_orfans: tbooleaneditradio
+  frame.caption=Orphelins
+
+mainfo ber_haveupdate: tbooleaneditradio
+  frame.caption=Mises à jour disponibles
+
+mainfo be_query_all: tbooleaneditradio
+  frame.caption=Interrogation
+
+mainfo be_query_ins: tbooleaneditradio
+  frame.caption=À installer
+
+mainfo be_query_del: tbooleaneditradio
+  frame.caption=À supprimer
+
+mainfo ber_deps: tbooleaneditradio
+  frame.caption=Installés en tant que dépendance
+
+#===========Tasks==============================
+
+mainfo b_updatesystem: trichbutton
+  caption=Mettre à jour le système
+
+mainfo trichbutton19: trichbutton
+  caption=Mettre à jour les paquets AUR
+
+
+mainfo b_sinh: trichbutton
+  caption=Mettre à jour les bases de données
+
+mainfo trichbutton22: trichbutton
+  caption=Retélécharger les paquets installés
+
+mainfo b_save_packagelist: trichbutton
+  caption=Sauvegarder la liste des paquets installés
+
+mainfo b_cleancache: trichbutton
+  caption=Supprimer les paquets obsolètes du cache
+
+mainfo b_restore_from_file: trichbutton
+  caption=Restaurer le système depuis un fichier
+
+mainfo b_findfastmirrors: trichbutton
+  caption=Trouver les 3 miroirs les plus rapides
+
+mainfo trichbutton28: trichbutton
+  caption=Retélécharger tous les paquets
+
+mainfo b_cache_management: trichbutton
+  caption=Gestion du cache
+  hint=Gère le cache des paquets
+
+mainfo b_cleancachef: trichbutton
+  caption=Supprimer tous les paquets
+
+mainfo b_remove_orfans: trichbutton
+  caption=Supprimer les paquets orphelins
+
+mainfo d_term: trichbutton
+  caption=Terminal X
+
+mainfo d_finav: trichbutton
+  caption=Gestionnaire de fichiers
+
+mainfo d_texteditor: trichbutton
+  caption=Éditeur de texte
+
+mainfo b_expl: trichbutton
+  caption=Marquer le paquet comme "Installé explicitement"
+
+mainfo b_dep: trichbutton
+  caption=Marquer le paquet comme "Installé en tant que dépendance"
+
+mainfo b_dizz: trichbutton
+  caption=Destituer le paquet
+
+
+
+mainfo b_install_file: trichbutton
+  caption=Installer un paquet *.pkg.tar.xz
+
+mainfo b_dowgrade_pkg: trichbutton
+  caption=Rétrograder le paquet
+  hint=Installe une version plus ancienne du paquet
+
+
+#=============Logs===========================
+
+mainfo wg_log_dates: twidgetgrid
+  frame.caption=Par date :
+
+mainfo b_clearlog: trichbutton
+  caption=Nettoyer les journaux
+
+mainfo trichbutton10: trichbutton
+  caption=Journaux de cette session
+
+mainfo trichbutton4: trichbutton
+  caption=Erreurs
+
+mainfo  b_check_errors: trichbutton
+  caption=Revérifier
+
+
+#==============Settings==========================
+
+mainfo tspacer23: tspacer
+  frame.caption=Interface
+
+mainfo dd_fonts: tdropdownlistedit
+  frame.caption=Police pour l'interface
+
+mainfo ie_heightfont: tintegeredit
+  frame.caption=Hauteur de police
+
+mainfo dd_langs: tdropdownlistedit
+  frame.caption=Langue
+
+mainfo b_set_font: trichstockglyphbutton
+  caption=Appliquer
+
+mainfo ber_left_menu: tbooleanedit
+  frame.caption= Menu à gauche
+
+mainfo dd_themes: tdropdownlistedit
+  frame.caption=Couleur du thème
+
+mainfo tspacer30: tspacer
+  frame.caption=Gestion des paquets
+
+mainfo b_sinhmirrors: tbooleanedit
+  frame.caption= Mettre à jour automatiquement les bases de données quand le système est mis à jour
+
+mainfo ber_external: tbooleanedit
+  frame.caption= Exécuter dans un terminal externe à PacmanXG
+
+mainfo be_noscreenshot: tbooleanedit
+  frame.caption= Télécharger les captures d'écran
+
+mainfo be_oldtablestyle: tbooleanedit
+  frame.caption= Vieu style du tableau
+
+mainfo ber_pos: tbooleanedit
+  frame.caption= Sauvegarder la position et la taille de la fenêtre
+
+mainfo ber_reset_options: tbooleanedit
+  frame.caption= Réinitialiser les options d'installation et suppression après chaque opération
+
+
+
+
+mainfo tspacer19: tspacer
+  frame.caption=Panneau des filtes
+
+mainfo b_filterpanelpos1: tbooleaneditradio
+  frame.caption= À droite
+
+mainfo b_filterpanelpos: tbooleaneditradio
+  frame.caption= À gauche
+
+
+mainfo tspacer39: tspacer
+  frame.caption=Notifications
+
+mainfo be_notifyme: tbooleaneditradio
+  frame.caption=Notifier lors de l'achèvement
+
+mainfo trichbutton44: trichbutton
+  caption=Utilitaires
+
+
+#mainfo trichbutton13: trichbutton
+#  caption=Recharger
+
+mainfo trichbutton16: trichbutton
+  caption=Sauvegarder
+
+  
+#========About================================
+mainfo B_ABOUT1: trichbutton
+  hint=À propos
+
+
+mainfo trichbutton3: trichbutton
+  caption=Licence
+
+mainfo trichbutton8: trichbutton
+  caption=Conseils
+
+mainfo trichbutton9: trichbutton
+  caption=Remerciements
+
+mainfo trichbutton21: trichbutton
+  caption=Aider le projet
+
+
+mainfo trichbutton47: trichbutton
+  caption=Raccourcis clavier
+
+
+mainfo l_inf: tlabel
+  caption=PacmanXG - A GUI front-end for the Pacman and Yaourt#10utilities, written by Alexandre Minoshi (Almin-Soft Group) #10for the Arch Linux community.#10#10PacmanXG does not require either QT or GTK to run, just X11#10#10    This program is free software; you can redistribute it and/or modify#10    it under the terms of the GNU General Public License as published by#10    the Free Software Foundation; version 2 of the License.#10#10    This program is distributed in the hope that it will be useful,#10    but WITHOUT ANY WARRANTY; without even the implied warranty of#10    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the#10    GNU General Public License for more details.#10#10    You should have received a copy of the GNU General Public License#10    along with this program; if not, write to the Free Software#10    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.#10#10#10Yours,#10Alexandre Minoshi
+
+
+
+mainfo l_tip: tlabel
+  caption=If you wish to work with AUR/Yaourt, don`t forget to uncomment/change USECOLOR=0 in /etc/yaourtrc.
+
+mainfo l_tip3: tlabel
+  caption=Use Key "--FONTALIAS=stf_default,<fontname>" to globally change the font of the interface.
+
+mainfo tlabel12: tlabel
+  caption=Install the lib32-libxft package to fix the antialiased font problem.
+
+mainfo tlabel6: tlabel
+  caption=Switch off VerbosePkgLists in pacman.conf (pacman versions => 4.0.0).
+
+mainfo tlabel17: tlabel
+  caption=For x64 systems, xorg-server-utils may need to be installed.
+
+mainfo tlabel8: tlabel
+  caption=Run PacmanXG with parameter "--exec" for executing a cli operation.#10For example:   pacmanxg --exec "pacman -S opera"#10
+
+
+mainfo l_thanks: tlabel
+  caption=MSEide + MSEGUI project#10#10freepascal project#10#10synaptic, app-set, KPackageKit/Apper  projects(interface and functions ideas)#10#10pkgbrowser project (screenshots)#10#10Nosonja project and Marko Gobin (some ideas, testing)#10#10people from archlinux.org.ru/forum (bug reports, ideas):#10#10 - Nebulosa - AUR PKGBUILD support#10 - alexdsp #10 - mehanoid#10 - 32reg - main beta tester for x64 systems :)#10 - Stasisman#10 - valera_cr  #10#10people from bbs.archlinux.org :#10 - karol
+
+
+mainfo tlabel1: tlabel
+  frame.caption=Testing
+  caption=#10If you find bugs or have ideas, write to me by e-mail#10#10#10or public on forums.
+
+mainfo tlabel13: tlabel
+  frame.caption=Do you wish donate?
+
+mainfo tlabel4: tlabel
+  frame.caption=Are you a translator?
+  caption=Open any file from /opt/pacmanxg4/langs, translate it into your language and send it to us via e-mail at: almin-soft@yandex.ru
+
+mainfo tlabel2: tlabel
+  frame.caption=Are you an artist or designer?
+  caption=Yes, it`s true, the PacmanXG interface is not very nice.#10#10Design a new interface and send a picture to us.
+
+
+#mainfo tlabel3: tlabel
+#  caption=Global: #10#10CTRL + U#10#10CTRL + S#10#10#10Package Management: #10#10CTRL + I#10#10CTRL + R#10#10CTRL + #E#10#10CTRL + F#10#10CTRL + L#10#10
+
+
+#==============PM==========================
+mainfo pm: tpopupmenu
+  caption=<separator>
+  caption=Installer/Mettre à jour les paquets
+  caption=Supprimer les paquets
+  caption=Annuler l'opération
+  caption=Effacer toutes les actions
+  caption=<separator>
+  caption=Lancer
+  caption=<separator>
+  caption=Mettre à jour le système
+  caption=Mettre à jour les bases de données
+  caption=<separator>
+  caption=Rétrograder le paquet
+  caption=Marquer le paquet comme "Installé explicitement"
+  caption=Marquer le paquet comme "Installé en tant que dépendance"
+  caption=Ignorer le paquet
+  caption=Repacman
+#  caption=<separator>
+#  caption=Ouvrir la liste des paquets installés
+#  caption=Àjouter à la liste des paquets installés
+
+mainfo pm_filelist: tpopupmenu
+  caption=<separator>
+  caption=Ouvrir le répertoire avec le gestionnaire de fichiers
+  caption=Ouvrir le fichier avec l'éditeur de texte
+
+
+
+#=========Others===============================
+
+mainfo b_menu: trichbutton
+  caption=MENU
+
+mainfo bmenu1: trichbutton
+  caption=Début
+
+#================Operation========================
+
+mainfo trichbutton59: trichbutton
+  caption=Annuler/Fermer
+
+
+mainfo trichbutton52: trichbutton
+  caption=Options de suppression
+
+
+mainfo s_del_opt: tspacer
+  frame.caption=Options de suppression
+
+mainfo be_nosave: tbooleanedit
+  frame.caption= --nosave  Supprime les fichiers de configuration.
+
+mainfo be_cascade: tbooleanedit
+  frame.caption= --cascade  Supprime les paquets ainsi que tous ceux qui en dépendent.
+
+mainfo be_recursive: tbooleanedit
+  frame.caption= --recursive  Supprime les dépendances inutiles.
+
+mainfo be_checkhome: tbooleanedit
+  frame.caption= Rechercher les paramètres dans le répertoire personnel de l'utilisateur.
+
+mainfo be_unneeded: tbooleanedit
+  frame.caption= --unneeded  Supprime les paquets inutile.
+
+
+
+mainfo b_continue_del: trichbutton
+  caption=Continuer
+
+
+
+mainfo trichbutton53: trichbutton
+  caption=Options d'installation
+
+mainfo s_ins_opt: tspacer
+  frame.caption=Options d'installation
+
+mainfo be_downloadonly: tbooleanedit
+  frame.caption= --downloadonly  Ne fait que télécharger les paquets, sans rien installer.
+
+mainfo be_asexpl: tbooleanedit
+  frame.caption= --asexplicit  Installe les paquets explicitement.
+
+mainfo be_needed: tbooleanedit
+  frame.caption=--needed  Ne pas réinstaller les paquets à jour.
+
+mainfo be_asdeps: tbooleanedit
+  frame.caption= --asdeps  Installe les paquets en tant que dépendances.
+
+mainfo be_force: tbooleanedit
+  frame.caption= --force  Installation forcée, écrase les fichiers en conflit.
+
+
+
+#mainfo s_trans_ask: tspacer
+#  frame.caption=Options de l'opération
+
+mainfo be_scriptlet: tbooleanedit
+  frame.caption= --noscriptlet  N’exécute pas le script d’installation, si le paquet en contient.
+
+mainfo be_dbonly: tbooleanedit
+  frame.caption= --dbonly  Modifie uniquement les entrées de la base de données mais pas les paquets.
+
+mainfo be_nodeps: tbooleanedit
+  frame.caption= --nodeps  Ignore les versions des dépendances.
+
+mainfo be_nodeps2: tbooleanedit
+  frame.caption= --nodeps --nodeps  Ignorer complètement toute dépendance.
+
+
+mainfo trichbutton61: trichbutton
+  caption=Détails
+
+
+#========================================
+[MESSAGES]
+File_not_found=Fichier non trouvé !
+Clear_log_file=Nettoyer les journaux
+check=Vérifier
+Ok=ОK
+Error=Erreur
+verbosepkglists_switch_off=verbosepkglists arrêté
+sinh_mirrors=Met à jour les bases de données
+orfans=Orphelins
+load_packagelist=Charge la liste des paquets
+Without_group=Sans groupe
+all_packages=Tous les paquets
+please_wait=Merci de patienter
+search=Recherche
+search_in_AUR=Chercher sur AUR
+Installed_version=Version installée
+Available_version=Version disponible
+Group=Groupe
+Repository=Dépôt
+Screenshots_are_switch_off_in options=Les captures d'écran#10sont désactivées#10dans les Préférences.
+Loading_screenshot=Charge les#10captures d'écran
+Seaching_screenshot=Recherche les#10captures d'écran
+No_screenshot=Pas de capture d'écran
+Can`t_save_file=Ne peut pas enregistrer le fichier !
+Can`t_delete_file=Ne peut pas supprimer le fichier !
+files=Fichier(s)
+cache=Cache
+error_news=Erreur lors du chargement du flux RSS
+Please_select_package=Merci de sélectionner un paquet ou de ???QUERY???.
+install=Installe les paquets
+remove=Supprime les paquets
+Done=Opération terminée
+long_time=Il peut prendre un certain temps pour exécuter ce script#10Continuer ?
+log_file_is_more_then_1Mbt=Les journaux font plus de 1Mo.#10Ils peuvent prendre un certain temps à charger.#Nettoyer les journaux.
+Loading=Chargement
+All_log=Tous les journaux
+Have_you_rights_to_do_it=Avez-vous la permission de faire ceci ?
+Saved=Sauvegardé
+edit_PKGBUILD1=Voulez-vous éditer le fichier PKGBUILD ?#10#10Le prgramme va tenter d'ouvrir l'éditeur de texte définit dans "Préférences -> Utilitaires" pour éditer le fichier PKGBUILD.
+edit_PKGBUILD2=Après la modification, sauvegardez et fermez l'éditeur de texte, ensuite, pour continuer, appuyer sur le bouton "Non".
+TERMINATEPROCESS=Interrompre l'opération en cours ?
+#========================================
+
