@@ -359,8 +359,8 @@ mainfo l_thanks: tlabel
 
 
 mainfo tlabel1: tlabel
-  frame.caption=Essais
-  caption=#10Si vous trouvez des bugs ou que vous avez des idées pour le développement du programme, envoyez-moi un e-mail à#10#10#10ou utilisez les forums.
+  frame.caption=Tests
+  caption=Si vous trouvez des bugs ou que vous avez des idées#10pour de développement, envoyez-moi un e-mail à :#10#10#10#10ou utilisez le forum public :
 
 mainfo tlabel13: tlabel
   frame.caption=Vous souhaitez faire un don ?
