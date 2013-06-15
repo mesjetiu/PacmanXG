@@ -26,14 +26,14 @@ mainfo b_news: trichbutton
 
 mainfo trichbutton5: trichbutton
   caption=Journaux
-  hint=Pacman Logs
+  hint=Logs de pacman
 
 mainfo trichbutton38: trichbutton
   caption=Préférences
   hint=Interface
 
 mainfo b_errors: trichbutton
-  caption=Il y a des erreurs et des avertissements ! Cliquer ici pour les voir
+  caption=Il y a des erreurs et/ou des avertissements ! Cliquer ici pour les voir
 
 mainfo l_newver: tlabel
   caption=Une nouvelle version de PacmanXG est disponible !
@@ -64,7 +64,7 @@ mainfo l_find_package_for_file: tlabel
 
 
 mainfo b_findpackage_with_pacman: trichbutton
-  caption=Recherche avec Pacman
+  caption=Recherche avec pacman
 
 mainfo b_findpackage_with_pkgfile: trichbutton
   caption=Recherche avec pkgfile
@@ -72,7 +72,7 @@ mainfo b_findpackage_with_pkgfile: trichbutton
 #===Panel with info=======================
 
 mainfo ttabpage16: ttabpage
-  caption=Peu d'informations
+  caption=Informations courtes
 
 mainfo l_pkgname_capt: tlabel
   caption=Paquet: 
@@ -87,7 +87,7 @@ mainfo l_thumb: tlabel
   caption=Pas de capture d'écran#10disponible
 
 mainfo ttabpage17: ttabpage
-  caption=Beaucoup d'informations
+  caption=Informations détaillées
 
 mainfo ttabpage8: ttabpage
   caption=Liste des fichiers du paquet
@@ -106,14 +106,14 @@ mainfo ber_aur: tbooleanedit
   frame.caption=Inclure AUR
 
 mainfo b_del_all: trichbutton
-  caption=Tous
+  caption=Tout
 
 mainfo b_ins_all: trichbutton
-  caption=Tous
+  caption=Tout
 
 
 mainfo ber_exact: trichbutton
-  frame.caption=Recherche exacte par nom
+  frame.caption=Résultat exact par nom
 
 mainfo ber_all: tbooleaneditradio
   frame.caption=Tous les paquets
@@ -160,7 +160,7 @@ mainfo trichbutton19: trichbutton
   caption=Mettre à jour les paquets AUR
 
 mainfo b_sinh: trichbutton
-  caption=Mettre à jour les bases de données
+  caption=Mettre à jour les bases de données de paquets
 
 mainfo trichbutton22: trichbutton
   caption=Re-télécharger les paquets installés
@@ -169,7 +169,7 @@ mainfo b_save_packagelist: trichbutton
   caption=Sauvegarder la liste des paquets installés
 
 mainfo b_cleancache: trichbutton
-  caption=Supprimer les paquets obsolètes du cache
+  caption=Supprimer le cache des paquets
 
 mainfo b_restore_from_file: trichbutton
   caption=Restaurer le système depuis un fichier
@@ -227,13 +227,13 @@ mainfo b_clearlog: trichbutton
   caption=Nettoyer les journaux
 
 mainfo trichbutton10: trichbutton
-  caption=Journaux de cette session
+  caption=Journal de la session
 
 mainfo trichbutton4: trichbutton
   caption=Erreurs
 
 mainfo  b_check_errors: trichbutton
-  caption=Revérifier
+  caption=Re-vérifier
 
 
 #==============Settings==========================
@@ -254,31 +254,31 @@ mainfo b_set_font: trichstockglyphbutton
   caption=Appliquer
 
 mainfo ber_left_menu: tbooleanedit
-  frame.caption= Menu à gauche
+  frame.caption=Afficher le menu à gauche
 
 mainfo dd_themes: tdropdownlistedit
-  frame.caption=Couleur du thème
+  frame.caption=Thème de couleur
 
 mainfo tspacer30: tspacer
   frame.caption=Gestion des paquets
 
 mainfo b_sinhmirrors: tbooleanedit
-  frame.caption= Mettre à jour automatiquement les bases de données quand le système est mis à jour
+  frame.caption=Mettre à jour automatiquement les bases de données, quand le système est mis à jour
 
 mainfo ber_external: tbooleanedit
-  frame.caption= Exécuter dans un terminal externe à PacmanXG
+  frame.caption= Exécuter dans un terminal externe
 
 mainfo be_noscreenshot: tbooleanedit
   frame.caption= Télécharger les captures d'écran
 
 mainfo be_oldtablestyle: tbooleanedit
-  frame.caption= Vieux style du tableau
+  frame.caption=Vieux style de tableau
 
 mainfo ber_pos: tbooleanedit
-  frame.caption= Sauvegarder la position et la taille de la fenêtre
+  frame.caption=Sauvegarder la position et la taille de la fenêtre
 
 mainfo ber_reset_options: tbooleanedit
-  frame.caption= Réinitialiser les options d'installation et suppression après chaque opération
+  frame.caption=Réinitialiser les options d'installation et suppression après chaque opération
 
 
 
@@ -286,17 +286,17 @@ mainfo tspacer19: tspacer
   frame.caption=Panneau des filtres
 
 mainfo b_filterpanelpos1: tbooleaneditradio
-  frame.caption= À droite
+  frame.caption=À droite
 
 mainfo b_filterpanelpos: tbooleaneditradio
-  frame.caption= À gauche
+  frame.caption=À gauche
 
 
 mainfo tspacer39: tspacer
   frame.caption=Notifications
 
 mainfo be_notifyme: tbooleaneditradio
-  frame.caption=Notifier lors de l'achèvement
+  frame.caption=Notifier à la fin des opérations
 
 mainfo trichbutton44: trichbutton
   caption=Utilitaires
@@ -332,7 +332,7 @@ mainfo trichbutton47: trichbutton
 
 
 mainfo l_inf: tlabel
-  caption=PacmanXG - Une interface frontal pour les utilitaires Pacman#10et Yaourt, écrit par Alexandre Minoshi (Almin-Soft Group) #10pour la communauté d'Arch Linux.#10#10PacmanXG n'a non plus pas besoin de QT ou GTK pour fonctionner, seulement de X11.#10#10   Ce programme est libre, vous pouvez le redistribuer et/ou le modifier#10   selon les termes de la Licence Publique Générale GNU publiée par#10   la Free Software Foundation, version 2 de la licence.#10#10   Ce programme est distribué car potentiellement utile,#10   mais SANS AUCUNE GARANTIE, ni explicite ni implicite#10   y compris les garanties de COMMERCIALISATION ou d'ADAPTATION#10   DANS UN BUT SPÉCIFIQUE.#10   Reportez-vous à la Licence Publique Générale GNU pour plus de détails.#10#10   Vous devez avoir reçu une copie de la Licence Publique Générale GNU#10   en même temps que ce programme; si ce n'est pas le cas, écrivez à#10   la Free Software Foundation#10   Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, États-Unis.#10#10#10Cordialement,#10Alexandre Minoshi
+  caption=PacmanXG - Une interface graphique pour les utilitaires Pacman#10et Yaourt, écrit par Alexandre Minoshi (Almin-Soft Group) #10pour la communauté d'Arch Linux.#10#10PacmanXG ne nécessite pas QT ou GTK pour fonctionner, il a besoin uniquement de X11.#10#10   Ce programme est libre, vous pouvez le redistribuer et/ou le modifier#10   selon les termes de la Licence Publique Générale GNU publiée par#10   la Free Software Foundation, version 2 de la licence.#10#10   Ce programme est distribué car potentiellement utile,#10   mais SANS AUCUNE GARANTIE, ni explicite ni implicite#10   y compris les garanties de COMMERCIALISATION ou d'ADAPTATION#10   DANS UN BUT SPÉCIFIQUE.#10   Reportez-vous à la Licence Publique Générale GNU pour plus de détails.#10#10   Vous devez avoir reçu une copie de la Licence Publique Générale GNU#10   en même temps que ce programme; si ce n'est pas le cas, écrivez à#10   la Free Software Foundation#10   Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, États-Unis.#10#10#10Cordialement,#10Alexandre Minoshi
 
 
 mainfo l_tip: tlabel
@@ -342,7 +342,7 @@ mainfo l_tip3: tlabel
   caption=Utilisez la touche "--FONTALIAS=stf_default,<fontname>" pour changer la police globale de l'interface.
 
 mainfo tlabel12: tlabel
-  caption=Installez le paquet lib32-libxft pour corriger les problèmes d'anticrénelage de la police d'écriture.
+  caption=Installez le paquet lib32-libxft, pour corriger les problèmes d'anticrénelage de la police d'écriture.
 
 mainfo tlabel6: tlabel
   caption=Commentez la ligne "VerbosePkgLists" dans le fichier /etc/pacman.conf (version de Pacman => 4.0.0).
@@ -351,7 +351,7 @@ mainfo tlabel17: tlabel
   caption=Pour les systèmes x64, le paquet "xorg-server-utils" a besoin d'être installé.
 
 mainfo tlabel8: tlabel
-  caption=Lancez PacmanXG avec le paramètre "--exec" pour exécuter une opération cli.#10Par exemple : pacmanxg --exec "pacman -S opera"#10
+  caption=Lancez PacmanXG avec le paramètre "--exec" pour exécuter une opération CLI.#10Par exemple : pacmanxg --exec "pacman -S opera"#10
 
 
 mainfo l_thanks: tlabel
@@ -384,12 +384,12 @@ mainfo pm: tpopupmenu
   caption=Installer/Mettre à jour les paquets
   caption=Supprimer les paquets
   caption=Annuler l'opération
-  caption=Effacer toutes les actions
+  caption=Effacer l'action
   caption=<separator>
   caption=Lancer
   caption=<separator>
   caption=Mettre à jour le système
-  caption=Mettre à jour les bases de données
+  caption=Mettre à jour les bases de données de paquets
   caption=<separator>
   caption=Rétrograder le paquet
   caption=Marquer le paquet comme "Installé explicitement"
@@ -402,8 +402,8 @@ mainfo pm: tpopupmenu
 
 mainfo pm_filelist: tpopupmenu
   caption=<separator>
-  caption=Ouvrir le répertoire avec le gestionnaire de fichiers
   caption=Ouvrir le fichier avec l'éditeur de texte
+  caption=Ouvrir le répertoire avec le gestionnaire de fichiers
 
 
 
@@ -429,19 +429,19 @@ mainfo s_del_opt: tspacer
   frame.caption=Options de suppression
 
 mainfo be_nosave: tbooleanedit
-  frame.caption= --nosave  Supprime les fichiers de configuration.
+  frame.caption= --nosave  Notifie pacman d'ignorer les sauvegardes de fichiers
 
 mainfo be_cascade: tbooleanedit
-  frame.caption= --cascade  Supprime les paquets ainsi que tous ceux qui en dépendent.
+  frame.caption= --cascade  Supprime les paquets, ainsi que tous ceux qui en dépendent.
 
 mainfo be_recursive: tbooleanedit
-  frame.caption= --recursive  Supprime les dépendances inutiles.
+  frame.caption= --recursive  Supprime chaque cible incluant les dépendances inutiles.
 
 mainfo be_checkhome: tbooleanedit
   frame.caption= Rechercher les paramètres dans le répertoire personnel de l'utilisateur.
 
 mainfo be_unneeded: tbooleanedit
-  frame.caption= --unneeded  Supprime les paquets inutile.
+  frame.caption= --unneeded  Supprime les paquets orphelins.
 
 
 mainfo b_continue_del: trichbutton
@@ -478,13 +478,13 @@ mainfo be_scriptlet: tbooleanedit
   frame.caption= --noscriptlet  N’exécute pas le script d’installation, si le paquet en contient.
 
 mainfo be_dbonly: tbooleanedit
-  frame.caption= --dbonly  Modifie uniquement les entrées de la base de données mais pas les paquets.
+  frame.caption= --dbonly  Modifie uniquement les entrées de la base de données de paquets, mais pas les paquets eux-mêmes.
 
 mainfo be_nodeps: tbooleanedit
-  frame.caption= --nodeps  Ignore les versions des dépendances.
+  frame.caption= --nodeps  Ignore la vérification des dépendances.
 
 mainfo be_nodeps2: tbooleanedit
-  frame.caption= --nodeps --nodeps  Ignorer complètement toute dépendance.
+  frame.caption= --nodeps --nodeps  Ignorer toutes les vérifications.
 
 
 mainfo trichbutton61: trichbutton
@@ -498,12 +498,12 @@ check=Vérifier
 Ok=ОK
 Error=Erreur
 verbosepkglists_switch_off=VerbosePkgLists non-activé
-sinh_mirrors=Met à jour les bases de données
+sinh_mirrors=Met à jour les bases de données de paquets
 orfans=Orphelins
-load_packagelist=Charge la liste des paquets
+load_packagelist=Chargement de la liste des paquets
 Without_group=Sans groupe
 all_packages=Tous les paquets
-please_wait=Merci de patienter
+please_wait=Veuillez patienter
 search=Recherche
 search_in_AUR=Chercher sur AUR
 Installed_version=Version installée
@@ -514,23 +514,23 @@ Screenshots_are_switch_off_in options=Les captures d'écran#10sont désactivées
 Loading_screenshot=Charge les#10captures d'écran
 Seaching_screenshot=Recherche les#10captures d'écran
 No_screenshot=Pas de capture d'écran
-Can`t_save_file=Ne peut pas enregistrer le fichier !
-Can`t_delete_file=Ne peut pas supprimer le fichier !
+Can`t_save_file=Impossible d'enregistrer le fichier !
+Can`t_delete_file=Impossible de supprimer le fichier !
 files=Fichier(s)
 cache=Cache
 error_news=Erreur lors du chargement du flux RSS
-Please_select_package=Merci de sélectionner un paquet ou d'effectuer une recherche.
-install=Installe les paquets
-remove=Supprime les paquets
+Please_select_package=Veuillez sélectionner un paquet ou effectuez une recherche.
+install=Installe les paquet(s)
+remove=Supprime les paquet(s)
 Done=Opération terminée
-long_time=Il peut prendre un certain temps pour exécuter ce script#10Continuer ?
-log_file_is_more_then_1Mbt=Les journaux font plus de 1Mo.#10Ils peuvent prendre un certain temps à charger.#Nettoyer les journaux.
+long_time=Ce script peux prendre un certain temps, pour s'exécuter#10Continuer ?
+log_file_is_more_then_1Mbt=Les journaux font plus de 1Mo.#10Il peux prendre un certain temps à charger.#Nettoyer les journaux.
 Loading=Chargement
 All_log=Tous les journaux
-Have_you_rights_to_do_it=Avez-vous la permission de faire ceci ?
+Have_you_rights_to_do_it=Avez-vous les permissions nécessaires, pour faire celà ?
 Saved=Sauvegardé
 edit_PKGBUILD1=Voulez-vous éditer le fichier PKGBUILD ?#10#10Le programme va tenter d'ouvrir l'éditeur de texte définit dans "Préférences -> Utilitaires" pour éditer le fichier PKGBUILD.
-edit_PKGBUILD2=Après la modification, sauvegardez et fermez l'éditeur de texte, ensuite, pour continuer, appuyer sur le bouton "Non".
+edit_PKGBUILD2=Après la modification, sauvegardez et fermez l'éditeur de texte, ensuite pour continuer, appuyer sur le bouton "Non".
 TERMINATEPROCESS=Interrompre l'opération en cours ?
 #========================================
 
