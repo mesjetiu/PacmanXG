@@ -9,14 +9,14 @@
 #
 # IMPORTANT: Use a "#10" to indicate line breaks
 #
-# Translator - MaNNa
+# Translator - MaNNa & Ypnose <linuxien[AT]legtux[DOT]org>
 
 #============Main Page====================
 mainfo trichbutton37: trichbutton
   caption=Package Management
 
 mainfo b_mylist: trichbutton
-  caption=My list of packages
+  caption=My packages list
 
 mainfo trichbutton39: trichbutton
   caption=Tasks
@@ -26,14 +26,14 @@ mainfo b_news: trichbutton
 
 mainfo trichbutton5: trichbutton
   caption=Logs
-  hint=Pacman Logs
+  hint=pacman Logs
 
 mainfo trichbutton38: trichbutton
   caption=Settings
   hint=Interface
 
 mainfo b_errors: trichbutton
-  caption=There are some error and warnings! Click here to see them
+  caption=There are some errors and warnings! Click here to see them
 
 mainfo l_newver: tlabel
   caption=A new version of PacmanXG is available!
@@ -149,7 +149,7 @@ mainfo be_query_del: tbooleaneditradio
   frame.caption=For Removal
 
 mainfo ber_deps: tbooleaneditradio
-  frame.caption=Installed as depences
+  frame.caption=Installed as dependencies
 
 #===========Tasks==============================
 
@@ -167,7 +167,7 @@ mainfo trichbutton22: trichbutton
   caption=ReDownload Installed Packages
 
 mainfo b_save_packagelist: trichbutton
-  caption=Save List of Packages
+  caption=Save Packages List
 
 mainfo b_cleancache: trichbutton
   caption=Clean Package Cache
@@ -243,7 +243,7 @@ mainfo tspacer23: tspacer
   frame.caption=Interface
 
 mainfo dd_fonts: tdropdownlistedit
-  frame.caption=Font of Interface
+  frame.caption=Interface font
 
 mainfo ie_heightfont: tintegeredit
   frame.caption=Font Height
@@ -533,7 +533,7 @@ long_time=It may take some time to execute this script#10Continue?
 log_file_is_more_then_1Mbt=The log file is more then 1 MB.#10It may take some time to load it.#10Clear Log File
 Loading=Loading
 All_log=All Logs
-Have_you_rights_to_do_it=Have you the rights to do this?
+Have_you_rights_to_do_it=Have you the permissions to do this?
 Saved=Saved
 edit_PKGBUILD1=Do you want to edit PKGBUILD.#10#10The program will now try to run your text editor chosen in the "Utils" tab to edit PKGBUILD.
 edit_PKGBUILD2=After editing, save the file and close your text editor, then to continue, press the "No" button.
