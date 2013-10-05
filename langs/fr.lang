@@ -332,7 +332,7 @@ mainfo trichbutton47: trichbutton
 
 
 mainfo l_inf: tlabel
-  caption=PacmanXG - Une interface graphique pour les utilitaires Pacman#10et Yaourt, écrit par Alexandre Minoshi (Almin-Soft Group) #10pour la communauté d'Arch Linux.#10#10PacmanXG ne nécessite pas QT ou GTK pour fonctionner, il a besoin uniquement de X11.#10#10   Ce programme est libre, vous pouvez le redistribuer et/ou le modifier#10   selon les termes de la Licence Publique Générale GNU publiée par#10   la Free Software Foundation, version 2 de la licence.#10#10   Ce programme est distribué car potentiellement utile,#10   mais SANS AUCUNE GARANTIE, ni explicite ni implicite#10   y compris les garanties de COMMERCIALISATION ou d'ADAPTATION#10   DANS UN BUT SPÉCIFIQUE.#10   Reportez-vous à la Licence Publique Générale GNU pour plus de détails.#10#10   Vous devez avoir reçu une copie de la Licence Publique Générale GNU#10   en même temps que ce programme; si ce n'est pas le cas, écrivez à#10   la Free Software Foundation#10   Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, États-Unis.#10#10#10Cordialement,#10Alexandre Minoshi
+  caption=PacmanXG - Une interface graphique pour les utilitaires Pacman#10et Yaourt, écrit par Alexandre Minoshi (Almin-Soft Group) #10pour la communauté d'Arch Linux.#10#10PacmanXG ne nécessite pas QT ou GTK pour fonctionner, il a besoin uniquement de X11.#10#10   Ce programme est libre, vous pouvez le redistribuer et/ou le modifier#10   selon les termes de la Licence Publique Générale GNU publiée par#10   la Free Software Foundation, version 2 de la licence.#10#10   Ce programme est distribué car potentiellement utile,#10   mais SANS AUCUNE GARANTIE, ni explicite ni implicite#10   y compris les garanties de COMMERCIALISATION ou d'ADAPTATION#10   DANS UN BUT SPÉCIFIQUE.#10   Reportez-vous à la Licence Publique Générale GNU pour plus de détails.#10#10   Vous devez avoir reçu une copie de la Licence Publique Générale GNU#10   en même temps que ce programme; si ce n'est pas le cas, écrivez à#10   la Free Software Foundation#10   Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, États-Unis.#10#10#10Cordialement,#10Alexandre Minoshi#10http://almin-soft.ru
 
 
 mainfo l_tip: tlabel
@@ -490,6 +490,20 @@ mainfo be_nodeps2: tbooleanedit
 mainfo trichbutton61: trichbutton
   caption=Détails
 
+#========Cache management =======================================
+mainfo b_export_from_cache: trichbutton
+   caption=Copy to ...
+
+mainfo be_overwrite: tbooleanedit
+   frame.caption=Overwrite file(s) if exsists
+
+mainfo dd_copyto: tdirdropdownedit
+   frame.caption=Select directory
+
+#=========== added =================================
+mainfo be_colorize: tbooleanedit
+   frame.caption=Highlight out of date packages
+
 #========================================
 [MESSAGES]
 File_not_found=Fichier non trouvé !
@@ -532,5 +546,5 @@ Saved=Sauvegardé
 edit_PKGBUILD1=Voulez-vous éditer le fichier PKGBUILD ?#10#10Le programme va tenter d'ouvrir l'éditeur de texte définit dans "Préférences -> Utilitaires" pour éditer le fichier PKGBUILD.
 edit_PKGBUILD2=Après la modification, sauvegardez et fermez l'éditeur de texte, ensuite pour continuer, appuyer sur le bouton "Non".
 TERMINATEPROCESS=Interrompre l'opération en cours ?
+File_exsists=File exsists
 #========================================
-

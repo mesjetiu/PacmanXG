@@ -103,7 +103,7 @@ mainfo ttabpage4: ttabpage
 
 
 mainfo ber_aur: tbooleanedit
-  frame.caption=Incluso AUR
+  frame.caption=AUR
 
 mainfo b_del_all: trichbutton
   caption=Tutti
@@ -207,7 +207,7 @@ mainfo b_dep: trichbutton
   caption=Segna pacchetto come "Installato come dipendenza"
 
 mainfo b_dizz: trichbutton
-  caption=Pacchetti senza proprietario
+  caption=Pacchetti senza manutentore
 
 
 
@@ -264,13 +264,13 @@ mainfo tspacer30: tspacer
   frame.caption=Gestione pacchetti
 
 mainfo b_sinhmirrors: tbooleanedit
-  frame.caption=Sincronizzare i Mirror tutte le volte che si aggiorna la lista dei pacchetti.
+  frame.caption=Sincronizza i Mirror tutte le volte che si aggiorna la lista dei pacchetti
 
 mainfo ber_external: tbooleanedit
-  frame.caption=Esegui in un terminale esterno.
+  frame.caption=Esegui in un terminale esterno
 
 mainfo be_noscreenshot: tbooleanedit
-  frame.caption=Scarica screenshots.
+  frame.caption=Scarica screenshots
 
 mainfo be_oldtablestyle: tbooleanedit
   frame.caption=Tabella vecchio stile
@@ -334,7 +334,7 @@ mainfo trichbutton47: trichbutton
 
 
 mainfo l_inf: tlabel
-  caption=PacmanXG - Una GUI front-end per Pacman e Yaourt,#10scritta da Alexandre Minoshi (Almin-Soft Group#10per la comunità Arch Linux.#10#10PacmanXG non richiede QT o GTK per l'esecuzione, solo X11#10#10Questo programma è un software free; puoi ridistribuirlo e/o modificarlo#10secondo i termini della GNU General Public License come pubblicato dalla#10Free Software Foundation; versione 2 della Licenza.#10#10Questo programma è distribuito con la speranza di essere utile,#10ma SENZA NESSUNA GARANZIA; senza nessuna garanzia implicita di#10COMMERCIABILITA' o IDONEITA' PER UNO SCOPO PARTICOLARE. Vedi la#10GNU General Public License per maggiori dettagli.#10#10Dovresti aver ricevuto una copia della GNU General Public License#10assieme a questo programma; se non è così, scrivi alla Free Software#10Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.#10#10#10In fede,#10Alexandre Minoshi
+  caption=PacmanXG - Una GUI front-end per Pacman e Yaourt,#10scritta da Alexandre Minoshi (Almin-Soft Group)#10per la comunità Arch Linux.#10#10PacmanXG non richiede QT o GTK per l'esecuzione, solo X11#10#10Questo programma è un software free; puoi ridistribuirlo e/o modificarlo#10secondo i termini della GNU General Public License come pubblicato dalla#10Free Software Foundation; versione 2 della Licenza.#10#10Questo programma è distribuito con la speranza di essere utile,#10ma SENZA NESSUNA GARANZIA; senza nessuna garanzia implicita di#10COMMERCIABILITA' o IDONEITA' PER UNO SCOPO PARTICOLARE. Vedi la#10GNU General Public License per maggiori dettagli.#10#10Dovresti aver ricevuto una copia della GNU General Public License#10assieme a questo programma; se non è così, scrivi alla Free Software#10Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.#10#10#10In fede,#10Alexandre Minoshi#10http://almin-soft.ru
 
 
 
@@ -429,22 +429,22 @@ mainfo trichbutton52: trichbutton
 
 
 mainfo s_del_opt: tspacer
-  frame.caption=Cancella opzioni
+  frame.caption=Opzioni di rimozione
 
 mainfo be_nosave: tbooleanedit
-  frame.caption= --nosave  Istrusce pacman ad ignorare le designazioni dei file di backup. 
+  frame.caption= --nosave  Impartisce a pacman di ingnorare le istruzioni di backup. 
 
 mainfo be_cascade: tbooleanedit
-  frame.caption= --cascade  Rimuove tutti i pacchetti selezionati, così come tutti quelli che dipendono#10da uno o più pacchetti selezionati.
+  frame.caption= --cascade  Rimuove tutti i pacchetti selezionati così come tutti i pacchetti#10 che dipendono da uno o più dei pacchetti rimossi.
 
 mainfo be_recursive: tbooleanedit
-  frame.caption= --recursive  Rimuove ciascuna selezione specificata includendo tutte le loro dipendenze.
+  frame.caption= --recursive  Rimuove tutti i pacchetti specificati includendo tutte le loro dipendenze.
 
 mainfo be_checkhome: tbooleanedit
-  frame.caption=Controlla la directory Home dell'utente per le impostazioni.
+  frame.caption= Controlla la Home dell'utente per le impostazioni.
 
 mainfo be_unneeded: tbooleanedit
-  frame.caption= --unneeded  Rimuove le selezioni (pacchetti) che non sono richiesti da altri pacchetti.
+  frame.caption= --unneeded  Rimuove pacchetti che non sono richiesti da altri pacchetti.
 
 
 
@@ -460,33 +460,33 @@ mainfo s_ins_opt: tspacer
   frame.caption=Opzioni installazione
 
 mainfo be_downloadonly: tbooleanedit
-  frame.caption= --downloadonly  Scarica tutti i pacchetti dal server, ma non li installa/aggiorna.
+  frame.caption= --downloadonly  Scarica i pacchetti ma non li installa/aggiona.
 
 mainfo be_asexpl: tbooleanedit
-  frame.caption= --asexplicit  Installa i pacchetti Explicity.
+  frame.caption= --asexplicit  Inatalla pacchetti come installati esplicitamente.
 
 mainfo be_needed: tbooleanedit
-  frame.caption=--needed   Non reinstallare pacchetti obiettivi che sono già aggiornati.
+  frame.caption=--needed   Non reinstalla i pacchetti che sono già aggiornati.
 
 mainfo be_asdeps: tbooleanedit
-  frame.caption= --asdeps  Installa i pacchetti Non-Explicitly.
+  frame.caption= --asdeps  Installa pacchetti come dipendenze.
 
 mainfo be_force: tbooleanedit
-  frame.caption= --force  Bypassa il controllo dei conflitti e sovrascrive il file che va in conflitto. 
+  frame.caption= --force  Bypassa i controlli dei conflitti e sovrascrive i file in conflitto. 
 
 
 
 mainfo s_trans_ask: tspacer
-  frame.caption=Opzioni di transazione
+  frame.caption=Opzioni durante il processo
 
 mainfo be_scriptlet: tbooleanedit
-  frame.caption= --noscriptlet  Se uno script di installazione esiste, non lo esegue. 
+  frame.caption= --noscriptlet  Se esiste un file scriptlet, non lo esegue. 
 
 mainfo be_dbonly: tbooleanedit
-  frame.caption= --dbonly  Aggiunge/Rimuove solo il database iniziale, lascia tutti i file al loro posto.
+  frame.caption= --dbonly  Aggiunge/Rimuove solo le voci del database, lascia tutti i file dove si trovano.
 
 mainfo be_nodeps: tbooleanedit
-  frame.caption= --nodeps  Salta i controlli di dipendenze di versione. 
+  frame.caption= --nodeps  Salta il controllo delle versioni delle dipendenze. 
 
 mainfo be_nodeps2: tbooleanedit
   frame.caption= --nodeps --nodeps, Salta tutti i controlli. 
@@ -495,6 +495,19 @@ mainfo be_nodeps2: tbooleanedit
 mainfo trichbutton61: trichbutton
   caption=Dettagli
 
+#========Cache management =======================================
+mainfo b_export_from_cache: trichbutton
+   caption=Copy to ...
+
+mainfo be_overwrite: tbooleanedit
+   frame.caption=Overwrite file(s) if exsists
+
+mainfo dd_copyto: tdirdropdownedit
+   frame.caption=Select directory
+
+#=========== added =================================
+mainfo be_colorize: tbooleanedit
+   frame.caption=Highlight out of date packages
 
 #========================================
 [MESSAGES]
@@ -538,5 +551,6 @@ Saved=Salvato
 edit_PKGBUILD1=Vuoi modificare il PKGBUILD.#10#10Il programma tenterà di aprire il text editor scelto nella sezione "Utilità" per editare il PKGBUILD.
 edit_PKGBUILD2=Dopo la modifica, salva il file e chiudi il tuo text editor, poi per continuare, premi il bottone "No".
 TERMINATEPROCESS=Interrompere il processo corrente?
+File_exsists=File exsists
 #========================================
 

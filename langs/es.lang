@@ -334,7 +334,7 @@ mainfo trichbutton47: trichbutton
 
 
 mainfo l_inf: tlabel
-  caption=PacmanXG - Interfaz gráfica para pacman y yaourt,#10desarrollada por Alexandre Minoshi (Almin-Soft Group) #10para la comunidad de Arch Linux#10#10No hace uso ni de QT, ni GTK, tan solo X11#10#10Este programa es software libre; puedes redistribuirlo y/o modificarlo#10bajo los términos de la GNU General Public License como es publicada por#10la Free Software Foundation; versión 2 de la licencia.#10#10Este programa es distribuido con la esperanza de que sea útil,#10pero SIN NINGUNA GARANTÍA; sin ni siquiera la garantía implícita de#10COMERCIALIZACIÓN o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Lee la#10GNU General Public License para más información.#10#10Deberías haber recibido una copia de la GNU General Public License#10junto con este programa; si no, escribe a la Free Software#10Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.#10#10#10Sinceramente,#10Alexandre Minoshi
+  caption=PacmanXG - Interfaz gráfica para pacman y yaourt,#10desarrollada por Alexandre Minoshi (Almin-Soft Group) #10para la comunidad de Arch Linux#10#10No hace uso ni de QT, ni GTK, tan solo X11#10#10Este programa es software libre; puedes redistribuirlo y/o modificarlo#10bajo los términos de la GNU General Public License como es publicada por#10la Free Software Foundation; versión 2 de la licencia.#10#10Este programa es distribuido con la esperanza de que sea útil,#10pero SIN NINGUNA GARANTÍA; sin ni siquiera la garantía implícita de#10COMERCIALIZACIÓN o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Lee la#10GNU General Public License para más información.#10#10Deberías haber recibido una copia de la GNU General Public License#10junto con este programa; si no, escribe a la Free Software#10Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.#10#10#10Sinceramente,#10Alexandre Minoshi#10http://almin-soft.ru
 
 
 
@@ -497,6 +497,19 @@ mainfo be_nodeps2: tbooleanedit
 mainfo trichbutton61: trichbutton
   caption=en detalle
 
+#========Cache management =======================================
+mainfo b_export_from_cache: trichbutton
+   caption=Copy to ...
+
+mainfo be_overwrite: tbooleanedit
+   frame.caption=Overwrite file(s) if exsists
+
+mainfo dd_copyto: tdirdropdownedit
+   frame.caption=Select directory
+
+#=========== added =================================
+mainfo be_colorize: tbooleanedit
+   frame.caption=Highlight out of date packages
 
 #========================================
 [MESSAGES]
@@ -540,5 +553,6 @@ Saved=Guardado
 edit_PKGBUILD1=Quieres editar el PKGBUILD.#10#10Ahora el programa intentará ejecutar tu editor de texto desde la pestaña "utilidades" con el PRGBUILD en el
 edit_PKGBUILD2=Despues de editar, guarda y cierra tu editor y presiona "no" para continuar
 TERMINATEPROCESS=Interrumpir el proceso actual?
+File_exsists=File exsists
 #========================================
 

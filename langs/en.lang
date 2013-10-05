@@ -9,14 +9,14 @@
 #
 # IMPORTANT: Use a "#10" to indicate line breaks
 #
-# Translator - MaNNa & Ypnose <linuxien[AT]legtux[DOT]org>
+# Translator - MaNNa
 
 #============Main Page====================
 mainfo trichbutton37: trichbutton
   caption=Package Management
 
 mainfo b_mylist: trichbutton
-  caption=My packages list
+  caption=My list of packages
 
 mainfo trichbutton39: trichbutton
   caption=Tasks
@@ -26,14 +26,14 @@ mainfo b_news: trichbutton
 
 mainfo trichbutton5: trichbutton
   caption=Logs
-  hint=pacman Logs
+  hint=Pacman Logs
 
 mainfo trichbutton38: trichbutton
   caption=Settings
   hint=Interface
 
 mainfo b_errors: trichbutton
-  caption=There are some errors and warnings! Click here to see them
+  caption=There are some error and warnings! Click here to see them
 
 mainfo l_newver: tlabel
   caption=A new version of PacmanXG is available!
@@ -149,7 +149,7 @@ mainfo be_query_del: tbooleaneditradio
   frame.caption=For Removal
 
 mainfo ber_deps: tbooleaneditradio
-  frame.caption=Installed as dependencies
+  frame.caption=Installed as depences
 
 #===========Tasks==============================
 
@@ -167,7 +167,7 @@ mainfo trichbutton22: trichbutton
   caption=ReDownload Installed Packages
 
 mainfo b_save_packagelist: trichbutton
-  caption=Save Packages List
+  caption=Save List of Packages
 
 mainfo b_cleancache: trichbutton
   caption=Clean Package Cache
@@ -243,7 +243,7 @@ mainfo tspacer23: tspacer
   frame.caption=Interface
 
 mainfo dd_fonts: tdropdownlistedit
-  frame.caption=Interface font
+  frame.caption=Font of Interface
 
 mainfo ie_heightfont: tintegeredit
   frame.caption=Font Height
@@ -334,7 +334,7 @@ mainfo trichbutton47: trichbutton
 
 
 mainfo l_inf: tlabel
-  caption=PacmanXG - A GUI front-end for the Pacman and Yaourt#10utilities, written by Alexandre Minoshi (Almin-Soft Group) #10for the Arch Linux community.#10#10PacmanXG does not require either QT or GTK to run, just X11#10#10    This program is free software; you can redistribute it and/or modify#10    it under the terms of the GNU General Public License as published by#10    the Free Software Foundation; version 2 of the License.#10#10    This program is distributed in the hope that it will be useful,#10    but WITHOUT ANY WARRANTY; without even the implied warranty of#10    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the#10    GNU General Public License for more details.#10#10    You should have received a copy of the GNU General Public License#10    along with this program; if not, write to the Free Software#10    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.#10#10#10Yours,#10Alexandre Minoshi
+  caption=PacmanXG - A GUI front-end for the Pacman and Yaourt#10utilities, written by Alexandre Minoshi (Almin-Soft Group) #10for the Arch Linux community.#10#10PacmanXG does not require either QT or GTK to run, just X11#10#10    This program is free software; you can redistribute it and/or modify#10    it under the terms of the GNU General Public License as published by#10    the Free Software Foundation; version 2 of the License.#10#10    This program is distributed in the hope that it will be useful,#10    but WITHOUT ANY WARRANTY; without even the implied warranty of#10    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the#10    GNU General Public License for more details.#10#10    You should have received a copy of the GNU General Public License#10    along with this program; if not, write to the Free Software#10    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.#10#10#10Yours,#10Alexandre Minoshi#10http://almin-soft.ru
 
 
 
@@ -495,6 +495,18 @@ mainfo be_nodeps2: tbooleanedit
 mainfo trichbutton61: trichbutton
   caption=Details
 
+#========Cache management =======================================
+mainfo b_export_from_cache: trichbutton
+   caption=Copy to ...
+
+mainfo be_overwrite: tbooleanedit
+   frame.caption=Overwrite file(s) if exsists
+
+mainfo dd_copyto: tdirdropdownedit
+   frame.caption=Select directory
+#=========== added =================================
+mainfo be_colorize: tbooleanedit
+   frame.caption=Highlight out of date packages
 
 #========================================
 [MESSAGES]
@@ -533,10 +545,11 @@ long_time=It may take some time to execute this script#10Continue?
 log_file_is_more_then_1Mbt=The log file is more then 1 MB.#10It may take some time to load it.#10Clear Log File
 Loading=Loading
 All_log=All Logs
-Have_you_rights_to_do_it=Have you the permissions to do this?
+Have_you_rights_to_do_it=Have you the rights to do this?
 Saved=Saved
 edit_PKGBUILD1=Do you want to edit PKGBUILD.#10#10The program will now try to run your text editor chosen in the "Utils" tab to edit PKGBUILD.
 edit_PKGBUILD2=After editing, save the file and close your text editor, then to continue, press the "No" button.
 TERMINATEPROCESS=Interrupt the current process?
+File_exsists=File exsists
 #========================================
 

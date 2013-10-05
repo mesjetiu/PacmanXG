@@ -411,7 +411,7 @@ mainfo b_menu: trichbutton
   caption=МЕНЮ
 
 mainfo bmenu1: trichbutton
-  caption=Начало
+  caption=Старт
 
 #================Operation========================
 
@@ -488,6 +488,20 @@ mainfo be_nodeps2: tbooleanedit
 mainfo trichbutton61: trichbutton
   caption=Детально
 
+#========Cache management =======================================
+mainfo b_export_from_cache: trichbutton
+   caption=Скопировать ...
+
+mainfo be_overwrite: tbooleanedit
+   frame.caption=Перезаписать если уже существует
+
+mainfo dd_copyto: tdirdropdownedit
+   frame.caption=Выберите каталог
+
+#=========== added =================================
+mainfo be_colorize: tbooleanedit
+   frame.caption=Подсвечивать устаревшие пакеты
+
 #===============================================
 [MESSAGES]
 File_not_found=Файл не найден
@@ -530,5 +544,6 @@ Have_you_rights_to_do_it=Проверьте права доступа
 edit_PKGBUILD1=Вы хотите отредактировать PKGBUILD.#10#10Сейчас программа попытается открыть в тектовом редакторе(вкладка "Задания") файл
 edit_PKGBUILD2=После редактирования нажмите кнопку "Нет", чтобы продолжить установку.
 TERMINATEPROCESS=Прервать текущий процесс?
+File_exsists=Файл уже существует
 #===============================================
 

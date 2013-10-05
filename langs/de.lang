@@ -334,7 +334,7 @@ mainfo trichbutton47: trichbutton
 
 
 mainfo l_inf: tlabel
-  caption=PacmanXG - Eine grafische Nutzeroberfläche (GUI) für die #10Programme "Pacman" und "Yaourt" geschrieben von #10Alexandre Minoshi (Almin-Soft Group) für die Arch Linux Gemeinschaft.#10#10PacmanXG benötigt kein QT oder GTK, einfach nur X11.#10#10    Dieses Program ist "free software"; sie können sie verändern und verbreiten#10    unter den Bedingungen der "GNU General Public License" wie veröffentlicht#10    durch die "Free Software Foundation"; Version 2 der Lizenz.#10#10    Dieses Programm wurde zur Verfügung gestellt in der Hoffnung damit den Nutzern zu helfen,#10    jedoch OHNE JEGLICHE GARANTIE; sogar OHNE die implizierte GARANTIE der#10    "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE".  Siehe#10    GNU General Public License für weitere Details.#10#10    Sie haben eine Kopie der  "GNU General Public License"#10    mit diesem Programm erhalten; falls nicht, wenden Sie sich bitte an die #10    Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA. #10#10#10Ihr,#10Alexandre Minoshi
+  caption=PacmanXG - Eine grafische Nutzeroberfläche (GUI) für die #10Programme "Pacman" und "Yaourt" geschrieben von #10Alexandre Minoshi (Almin-Soft Group) für die Arch Linux Gemeinschaft.#10#10PacmanXG benötigt kein QT oder GTK, einfach nur X11.#10#10    Dieses Program ist "free software"; sie können sie verändern und verbreiten#10    unter den Bedingungen der "GNU General Public License" wie veröffentlicht#10    durch die "Free Software Foundation"; Version 2 der Lizenz.#10#10    Dieses Programm wurde zur Verfügung gestellt in der Hoffnung damit den Nutzern zu helfen,#10    jedoch OHNE JEGLICHE GARANTIE; sogar OHNE die implizierte GARANTIE der#10    "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE".  Siehe#10    GNU General Public License für weitere Details.#10#10    Sie haben eine Kopie der  "GNU General Public License"#10    mit diesem Programm erhalten; falls nicht, wenden Sie sich bitte an die #10    Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA. #10#10#10Ihr,#10Alexandre Minoshi#10http://almin-soft.ru
 
 
 mainfo l_tip: tlabel
@@ -494,6 +494,19 @@ mainfo be_nodeps2: tbooleanedit
 mainfo trichbutton61: trichbutton
   caption=Details
 
+#========Cache management =======================================
+mainfo b_export_from_cache: trichbutton
+   caption=Copy to ...
+
+mainfo be_overwrite: tbooleanedit
+   frame.caption=Overwrite file(s) if exsists
+
+mainfo dd_copyto: tdirdropdownedit
+   frame.caption=Select directory
+
+#=========== added =================================
+mainfo be_colorize: tbooleanedit
+   frame.caption=Highlight out of date packages
 
 #========================================
 [MESSAGES]
@@ -537,5 +550,6 @@ Saved=Saved
 edit_PKGBUILD1=Do you want to edit PKGBUILD.#10#10The program will now try to run your text editor chosen in the "Utils" tab to edit PKGBUILD.
 edit_PKGBUILD2=After editing, save the file and close your text editor, then to continue, press the "No" button.
 TERMINATEPROCESS=Interrupt the current process?
+File_exsists=File exsists
 #========================================
 
