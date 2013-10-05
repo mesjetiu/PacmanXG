@@ -26,7 +26,7 @@ mainfo b_news: trichbutton
 
 mainfo trichbutton5: trichbutton
   caption=Journaux
-  hint=Logs de pacman
+  hint=Journaux de Pacman
 
 mainfo trichbutton38: trichbutton
   caption=Préférences
@@ -64,7 +64,7 @@ mainfo l_find_package_for_file: tlabel
 
 
 mainfo b_findpackage_with_pacman: trichbutton
-  caption=Recherche avec pacman
+  caption=Recherche avec Pacman
 
 mainfo b_findpackage_with_pkgfile: trichbutton
   caption=Recherche avec pkgfile
@@ -75,13 +75,13 @@ mainfo ttabpage16: ttabpage
   caption=Informations courtes
 
 mainfo l_pkgname_capt: tlabel
-  caption=Paquet: 
+  caption=Paquet :
 
 mainfo tlabel9: tlabel
-  caption=Dépôt: 
+  caption=Dépôt :
 
 mainfo l_pkginfo_capt: tlabel
-  caption=Description: 
+  caption=Description :
 
 mainfo l_thumb: tlabel
   caption=Pas de capture d'écran#10disponible
@@ -266,19 +266,19 @@ mainfo b_sinhmirrors: tbooleanedit
   frame.caption=Mettre à jour automatiquement les bases de données, quand le système est mis à jour
 
 mainfo ber_external: tbooleanedit
-  frame.caption= Exécuter dans un terminal externe
+  frame.caption=Exécuter dans un terminal externe
 
 mainfo be_noscreenshot: tbooleanedit
-  frame.caption= Télécharger les captures d'écran
+  frame.caption=Télécharger les captures d'écran
 
 mainfo be_oldtablestyle: tbooleanedit
-  frame.caption=Vieux style de tableau
+  frame.caption=Ancien affichage du tableau (ajoute d'autres colonnes)
 
 mainfo ber_pos: tbooleanedit
   frame.caption=Sauvegarder la position et la taille de la fenêtre
 
 mainfo ber_reset_options: tbooleanedit
-  frame.caption=Réinitialiser les options d'installation et suppression après chaque opération
+  frame.caption=Réinitialiser les options d'installation et de suppression après chaque opération
 
 
 
@@ -339,7 +339,7 @@ mainfo l_tip: tlabel
   caption=Si vous voulez travailler avec AUR/Yaourt, n'oubliez pas de décommenter/changer "USECOLOR=0" dans le fichier /etc/yaourtrc.
 
 mainfo l_tip3: tlabel
-  caption=Utilisez la touche "--FONTALIAS=stf_default,<fontname>" pour changer la police globale de l'interface.
+  caption=Utilisez la clé "--FONTALIAS=stf_default,<fontname>" pour changer la police globale de l'interface.
 
 mainfo tlabel12: tlabel
   caption=Installez le paquet lib32-libxft, pour corriger les problèmes d'anticrénelage de la police d'écriture.
@@ -348,7 +348,7 @@ mainfo tlabel6: tlabel
   caption=Commentez la ligne "VerbosePkgLists" dans le fichier /etc/pacman.conf (version de Pacman => 4.0.0).
 
 mainfo tlabel17: tlabel
-  caption=Pour les systèmes x64, le paquet "xorg-server-utils" a besoin d'être installé.
+  caption=Pour les systèmes x86_64, le paquet "xorg-server-utils" a besoin d'être installé.
 
 mainfo tlabel8: tlabel
   caption=Lancez PacmanXG avec le paramètre "--exec" pour exécuter une opération CLI.#10Par exemple : pacmanxg --exec "pacman -S opera"#10
@@ -429,19 +429,19 @@ mainfo s_del_opt: tspacer
   frame.caption=Options de suppression
 
 mainfo be_nosave: tbooleanedit
-  frame.caption= --nosave  Supprime les fichiers de configuration.
+  frame.caption=--nosave  Supprime les fichiers de configuration.
 
 mainfo be_cascade: tbooleanedit
-  frame.caption= --cascade  Supprime les paquets ainsi que tous ceux qui en dépendent.
+  frame.caption=--cascade  Supprime les paquets ainsi que tous ceux qui en dépendent.
 
 mainfo be_recursive: tbooleanedit
-  frame.caption= --recursive  Supprime les dépendances inutiles.
+  frame.caption=--recursive  Supprime les dépendances inutiles.
 
 mainfo be_checkhome: tbooleanedit
-  frame.caption= Rechercher les paramètres dans le répertoire personnel de l'utilisateur.
+  frame.caption=Rechercher les paramètres dans le répertoire personnel de l'utilisateur.
 
 mainfo be_unneeded: tbooleanedit
-  frame.caption= --unneeded  Supprime les paquets inutile.
+  frame.caption=--unneeded  Supprime les paquets inutile.
 
 
 mainfo b_continue_del: trichbutton
@@ -455,19 +455,19 @@ mainfo s_ins_opt: tspacer
   frame.caption=Options d'installation
 
 mainfo be_downloadonly: tbooleanedit
-  frame.caption= --downloadonly  Ne fait que télécharger les paquets, sans rien installer.
+  frame.caption=--downloadonly  Ne fait que télécharger les paquets, sans rien installer.
 
 mainfo be_asexpl: tbooleanedit
-  frame.caption= --asexplicit  Installe les paquets explicitement.
+  frame.caption=--asexplicit  Installe les paquets explicitement.
 
 mainfo be_needed: tbooleanedit
   frame.caption=--needed  Ne pas réinstaller les paquets à jour.
 
 mainfo be_asdeps: tbooleanedit
-  frame.caption= --asdeps  Installe les paquets en tant que dépendances.
+  frame.caption=--asdeps  Installe les paquets en tant que dépendances.
 
 mainfo be_force: tbooleanedit
-  frame.caption= --force  Installation forcée, écrase les fichiers en conflit.
+  frame.caption=--force  Installation forcée, écrase les fichiers en conflit.
 
 
 
@@ -475,16 +475,16 @@ mainfo be_force: tbooleanedit
 #  frame.caption=Options de l'opération
 
 mainfo be_scriptlet: tbooleanedit
-  frame.caption= --noscriptlet  N’exécute pas le script d’installation, si le paquet en contient.
+  frame.caption=--noscriptlet  N’exécute pas le script d’installation, si le paquet en contient.
 
 mainfo be_dbonly: tbooleanedit
-  frame.caption= --dbonly  Modifie uniquement les entrées de la base de données mais pas les paquets.
+  frame.caption=--dbonly  Modifie uniquement les entrées de la base de données mais pas les paquets.
 
 mainfo be_nodeps: tbooleanedit
-  frame.caption= --nodeps  Ignore les versions des dépendances.
+  frame.caption=--nodeps  Ignore les versions des dépendances.
 
 mainfo be_nodeps2: tbooleanedit
-  frame.caption= --nodeps --nodeps  Ignorer complètement toute dépendance.
+  frame.caption=--nodeps --nodeps  Ignorer complètement toute dépendance.
 
 
 mainfo trichbutton61: trichbutton
@@ -538,7 +538,7 @@ install=Installe les paquet(s)
 remove=Supprime les paquet(s)
 Done=Opération terminée
 long_time=Ce script peux prendre un certain temps, pour s'exécuter#10Continuer ?
-log_file_is_more_then_1Mbt=Les journaux font plus de 1Mo.#10Il peux prendre un certain temps à charger.#10Nettoyer les journaux.
+log_file_is_more_then_1Mbt=Les journaux font plus de 1Mo.#10Il peut prendre un certain temps à charger.#10Nettoyer les journaux.
 Loading=Chargement
 All_log=Tous les journaux
 Have_you_rights_to_do_it=Avez-vous les permissions nécessaires, pour faire celà ?
