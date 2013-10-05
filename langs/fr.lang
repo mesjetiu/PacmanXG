@@ -492,17 +492,17 @@ mainfo trichbutton61: trichbutton
 
 #========Cache management =======================================
 mainfo b_export_from_cache: trichbutton
-   caption=Copy to ...
+   caption=Copier vers...
 
 mainfo be_overwrite: tbooleanedit
-   frame.caption=Overwrite file(s) if exsists
+   frame.caption=Écraser le(s) fichier(s) s'il(s) existe(nt)
 
 mainfo dd_copyto: tdirdropdownedit
-   frame.caption=Select directory
+   frame.caption=Sélectionner le répertoire
 
 #=========== added =================================
 mainfo be_colorize: tbooleanedit
-   frame.caption=Highlight out of date packages
+   frame.caption=Surligner les paquets périmés
 
 #========================================
 [MESSAGES]
@@ -546,5 +546,5 @@ Saved=Sauvegardé
 edit_PKGBUILD1=Voulez-vous éditer le fichier PKGBUILD ?#10#10Le programme va tenter d'ouvrir l'éditeur de texte définit dans "Préférences -> Utilitaires" pour éditer le fichier PKGBUILD.
 edit_PKGBUILD2=Après la modification, sauvegardez et fermez l'éditeur de texte, ensuite pour continuer, appuyer sur le bouton "Non".
 TERMINATEPROCESS=Interrompre l'opération en cours ?
-File_exsists=File exsists
+File_exsists=Le fichier existe
 #========================================
