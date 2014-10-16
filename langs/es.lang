@@ -307,7 +307,7 @@ mainfo trichbutton44: trichbutton
 #  caption=Recargar
 
 mainfo trichbutton16: trichbutton
-  caption=Ahorrar
+  caption=Guardar
 
 
 #==========About==============================
