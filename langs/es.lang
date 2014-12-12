@@ -34,10 +34,10 @@ mainfo trichbutton38: trichbutton
   hint=Interfaz
 
 mainfo b_errors: trichbutton
-  caption=Hay algunos errores(avisos)! Haz click aquí para verlos
+  caption=¡Hay algunos errores(avisos)! Haz click aquí para verlos
 
 mainfo l_newver: tlabel
-  caption=Una nueva versión de PacmanXG está disponible!
+  caption=¡Una nueva versión de PacmanXG está disponible!
 
 #=======Package Management Page===========
 #table
@@ -73,13 +73,13 @@ mainfo ttabpage16: ttabpage
   caption=Información#10resumida
 
 mainfo l_pkgname_capt: tlabel
-  caption=Paquete : 
+  caption=Paquete: 
 
 mainfo tlabel9: tlabel
-  caption=Repositorio :
+  caption=Repositorio:
 
 mainfo l_pkginfo_capt: tlabel
-  caption=Descripción : 
+  caption=Descripción: 
 
 mainfo l_thumb: tlabel
   caption=No existe captura
@@ -218,7 +218,7 @@ mainfo b_dowgrade_pkg: trichbutton
 #==============Logs==========================
 
 mainfo wg_log_dates: twidgetgrid
-  frame.caption=Por fecha :
+  frame.caption=Por fecha:
 
 mainfo b_clearlog: trichbutton
   caption=Limpiar registro
@@ -296,11 +296,11 @@ mainfo tspacer39: tspacer
   frame.caption=Notificaciones
 
 mainfo be_notifyme: tbooleaneditradio
-  frame.caption=Notifiqueme de finalización
+  frame.caption=Notifíqueme de finalización
 
 
 mainfo trichbutton44: trichbutton
-  caption=Utiles
+  caption=Útiles
 
 
 #mainfo trichbutton13: trichbutton
@@ -335,7 +335,6 @@ mainfo trichbutton47: trichbutton
 
 mainfo l_inf: tlabel
   caption=PacmanXG - Interfaz gráfica para pacman y yaourt,#10desarrollada por Alexandre Minoshi (Almin-Soft Group) #10para la comunidad de Arch Linux#10#10No hace uso ni de QT, ni GTK, tan solo X11#10#10Este programa es software libre; puedes redistribuirlo y/o modificarlo#10bajo los términos de la GNU General Public License como es publicada por#10la Free Software Foundation; versión 2 de la licencia.#10#10Este programa es distribuido con la esperanza de que sea útil,#10pero SIN NINGUNA GARANTÍA; sin ni siquiera la garantía implícita de#10COMERCIALIZACIÓN o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Lee la#10GNU General Public License para más información.#10#10Deberías haber recibido una copia de la GNU General Public License#10junto con este programa; si no, escribe a la Free Software#10Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.#10#10#10Sinceramente,#10Alexandre Minoshi#10http://almin-soft.ru
-
 
 
 mainfo l_tip: tlabel
@@ -374,7 +373,7 @@ mainfo tlabel4: tlabel
 
 mainfo tlabel2: tlabel
   frame.caption=¿Eres un diseñador?
-  caption=Si, es verdad, la interfaz de pacmanXG no es muy bonita#10#10Dibuja una nueva interfaz y envianos la imagen.
+  caption=Sí, es verdad, la interfaz de pacmanXG no es muy bonita#10#10Dibuja una nueva interfaz y envianos la imagen.
 
 
 #mainfo tlabel3: tlabel
@@ -539,7 +538,7 @@ Can`t_save_file=No se puede guardar el archivo
 Can`t_delete_file=No se puede eliminar el archivo
 files=archivo(s)
 cache=Cache
-error_news=Error mientras cargaban las Noticias
+error_news=Error mientras se cargaban las Noticias
 Please_select_package=Por favor, selecciona un paquete o haz una búsqueda
 install=Instalar de paquetes
 remove=Eliminar de paquetes
@@ -551,8 +550,8 @@ All_log=Todo a registro
 Have_you_rights_to_do_it=Tienes derecho a hacer esto
 Saved=Guardado
 edit_PKGBUILD1=Quieres editar el PKGBUILD.#10#10Ahora el programa intentará ejecutar tu editor de texto desde la pestaña "utilidades" con el PRGBUILD en el
-edit_PKGBUILD2=Despues de editar, guarda y cierra tu editor y presiona "no" para continuar
-TERMINATEPROCESS=Interrumpir el proceso actual?
+edit_PKGBUILD2=Después de editar, guarda y cierra tu editor y presiona "no" para continuar
+TERMINATEPROCESS=¿Interrumpir el proceso actual?
 File_exsists=File exsists
 #========================================
 
