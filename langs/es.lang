@@ -498,24 +498,24 @@ mainfo trichbutton61: trichbutton
 
 #========Cache management =======================================
 mainfo b_export_from_cache: trichbutton
-   caption=Copy to ...
+   caption=Copiar a...
 
 mainfo be_overwrite: tbooleanedit
-   frame.caption=Overwrite file(s) if exsists
+   frame.caption=Sobrescribir archivo(s) si existe
 
 mainfo dd_copyto: tdirdropdownedit
-   frame.caption=Select directory
+   frame.caption=Seleccionar directorio
 
 #=========== added =================================
 mainfo be_colorize: tbooleanedit
-   frame.caption=Highlight out of date packages
+   frame.caption=Resaltar paquetes out of date
 
 #========================================
 [MESSAGES]
 File_not_found=Archivo no encontrado
 Clear_log_file=Limpiar fichero de registro
 check=comprobar
-Ok=Ок
+Ok=ОK
 Error=error
 verbosepkglists_switch_off=verbosepkglists apagado
 sinh_mirrors=Sincronización de los Espejos
@@ -537,13 +537,13 @@ No_screenshot=No hay capturas#10disponibles
 Can`t_save_file=No se puede guardar el archivo
 Can`t_delete_file=No se puede eliminar el archivo
 files=archivo(s)
-cache=Cache
+cache=Caché
 error_news=Error mientras se cargaban las Noticias
 Please_select_package=Por favor, selecciona un paquete o haz una búsqueda
-install=Instalar de paquetes
-remove=Eliminar de paquetes
+install=Instalar paquetes
+remove=Eliminar paquetes
 Done=Hecho
-long_time=It may take some time to execute this script#10Continue?
+long_time=Puede llevar algo de tiempo ejecutar este script#10¿Desea continuar?
 log_file_is_more_then_1Mbt=El archivo de registro es mayor a 1 MB#10Cuesta más tiempo cargarlo#10Limpia el fichero de registro
 Loading=Cargando
 All_log=Todo a registro
@@ -552,6 +552,6 @@ Saved=Guardado
 edit_PKGBUILD1=Quieres editar el PKGBUILD.#10#10Ahora el programa intentará ejecutar tu editor de texto desde la pestaña "utilidades" con el PRGBUILD en el
 edit_PKGBUILD2=Después de editar, guarda y cierra tu editor y presiona "no" para continuar
 TERMINATEPROCESS=¿Interrumpir el proceso actual?
-File_exsists=File exsists
+File_exsists=El archivo existe
 #========================================
 
